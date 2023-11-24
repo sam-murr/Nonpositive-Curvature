@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "917dd84abc2c883a",
+    "type": "split",
+    "children": [
+      {
+        "id": "312dd3cb99ecff9e",
+        "type": "tabs",
+        "dimension": 49.052132701421804,
+        "children": [
+          {
+            "id": "d9b826201d09ecfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classes/Metric Spaces with Nonpositive Curvature/Geometry on the n Sphere.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "ca5e43ffbed7a07b",
+        "type": "tabs",
+        "dimension": 50.947867298578196,
+        "children": [
+          {
+            "id": "8b88f0538cf60b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Set Theory/Algebras and Sigma Algebras.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72cd46b608f7bcda",
+    "type": "split",
+    "children": [
+      {
+        "id": "f847d44d2f087592",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56f2fb9269e6c68d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "b6e60758c0a935bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "G delta",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "347e2746a6aa40cd",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e49b62bbacf53a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263.5
+  },
+  "right": {
+    "id": "7855955a4dded8c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "d10bc993c0d87c56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80f19e89d3e9cfdb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Classes/Metric Spaces with Nonpositive Curvature/Geometry on the n Sphere.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c56080e56c417c28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Classes/Metric Spaces with Nonpositive Curvature/Geometry on the n Sphere.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd3ed9bcf1af2aa8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "822c7ebe64072c0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Classes/Metric Spaces with Nonpositive Curvature/Geometry on the n Sphere.md"
+              }
+            }
+          },
+          {
+            "id": "5bd46932e9648e5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Banach Space Theory/Convexity.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7c86a663390a6975",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d9b826201d09ecfa",
+  "lastOpenFiles": [
+    "Classes/Metric Spaces with Nonpositive Curvature/Midterm Problems.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Geometry on the n Sphere.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/README.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Geometry of Euclidean Space.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Euclidean Comparison Triangle.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Alexanderov Angle.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Riemannian Geometry.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Model Spaces.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/CAT Kappa Spaces and Curvature.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Geodesic.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Hyperplanes and Reflections.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Geometry of Hyperbolic Space.md",
+    "Set Theory/Algebras and Sigma Algebras.md",
+    "Set Theory/Power Set Axiom.md",
+    "Set Theory/Basic Set Theory Notions.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Metric Simplicial Complexes.md",
+    "Set Theory/Equivalence Relation.md",
+    "Analysis/Measure Theory/Untitled.md",
+    "Analysis/Measure Theory/Measure Preserving Transformation.md",
+    "Descriptive Set Theory/Analytic Sets/Analytic BP.md",
+    "Descriptive Set Theory/Analytic Sets/Analytic Sets.md",
+    "Descriptive Set Theory/Polish Subspaces of Polish Space/Polish Subspaces of Polish Spaces.md",
+    "Descriptive Set Theory/Standard Borel Spaces/Standard Borel Space.md",
+    "Descriptive Set Theory/Standard Borel Spaces/Borel Function.md",
+    "Descriptive Set Theory/Standard Borel Spaces/Borel Isomorphism Theorem.md",
+    "Set Theory/Filters and Ideals.md",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures/Spherical law of cosines.png",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures/Klein Model 2.png",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures/Klein Model.png",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures/Hyperbolic Plane.png",
+    "Probability",
+    "Probability on Trees and Networks",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures/angle between arcs.png",
+    "Classes/Metric Spaces with Nonpositive Curvature/Figures",
+    "Linear Progamming/Screen Shot 2023-10-05 at 3.29.13 PM.png",
+    "Linear Algebra",
+    "Classes/Metric Spaces with Nonpositive Curvature/Class 1",
+    "Classes/Metric Spaces with Nonpositive Curvature",
+    "Descriptive Set Theory/Uniformization Results",
+    "Classes",
+    "Basic Topology/Homotopy",
+    "Basic Topology/Pointset Topology",
+    "Descriptive Set Theory/Figures/G03.png",
+    "Descriptive Set Theory/Figures/G02.png",
+    "Descriptive Set Theory/Figures/G01.png"
+  ]
+}

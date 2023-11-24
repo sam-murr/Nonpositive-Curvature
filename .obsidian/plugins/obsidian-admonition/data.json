@@ -1,0 +1,161 @@
+{
+  "userAdmonitions": {
+    "Theorem": {
+      "type": "Theorem",
+      "color": "88, 102, 202",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Theorem",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Lemma": {
+      "type": "Lemma",
+      "color": "118, 208, 181",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Lemma",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Definition": {
+      "type": "Definition",
+      "color": "226, 157, 157",
+      "icon": {
+        "name": "address-book",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Definition",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Axiom": {
+      "type": "Axiom",
+      "color": "188, 185, 185",
+      "icon": {
+        "name": "atlas",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Axiom",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Proposition": {
+      "type": "Proposition",
+      "color": "141, 224, 226",
+      "icon": {
+        "name": "bookmark",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Proposition",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Example": {
+      "type": "Example",
+      "color": "230, 209, 101",
+      "icon": {
+        "name": "book-open",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Example",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Notation": {
+      "type": "Notation",
+      "color": "180, 115, 181",
+      "icon": {
+        "name": "pen-nib",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Notation",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Remark": {
+      "type": "Remark",
+      "color": "230, 81, 81",
+      "icon": {
+        "name": "lightbulb",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Remark",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Corollary": {
+      "type": "Corollary",
+      "color": "85, 179, 66",
+      "icon": {
+        "name": "receipt",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Corollary",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "Claim": {
+      "type": "Claim",
+      "color": "163, 121, 175",
+      "icon": {
+        "name": "sticky-note",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Claim",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "Exercise": {
+      "type": "Exercise",
+      "color": "33, 129, 131",
+      "icon": {
+        "name": "question-circle",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Exercise",
+      "injectColor": true,
+      "noTitle": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "9.2.1",
+  "autoCollapse": false,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.002720"
+}
