@@ -32,7 +32,7 @@ x_{n+1}^2y_{n+1}^2-2x_{n+1}y_{n+1}+1&\geq x_{n+1}^2y_{n+1}^2-x_{n+1}^2-y_{n+1}^2
 -1&\geq (x,y)\\
 \end{align}
 $$
-With equality iff $x = y$, since the inequality is introduced in $(2)$ and $(3)$. This shows $d$ is well defined.Since $\cosh(\theta) = 0$ iff $\theta = 0$, this proves property $2$ of a [[Metric Space|metric]]. Property 1 follows from the definition. $\square$
+With equality iff $x = y$, since the inequality is introduced in $(2)$ and $(3)$. This shows $d$ is well defined.Since $\cosh(\theta) = 0$ iff $\theta = 0$, this proves property $2$ of a [[Basic Topology/Metric Spaces/Metric Space|metric]]. Property 1 follows from the definition. $\square$
 
 
 ```ad-Definition

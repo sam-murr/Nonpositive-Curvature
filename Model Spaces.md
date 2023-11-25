@@ -23,7 +23,7 @@ $$
 	\cosh(\sqrt{k} c) = \cosh(\sqrt{k} a)\cosh(\sqrt{k} b) - \sinh(\sqrt{k} a)\sinh(\sqrt{k} b)\cos(\gamma)
 	$$
 ```
-__Proof__: This follows from the law of cosines in [[Geometry of Euclidean Space|euclidean]], [[Geometry on the n Sphere|spherical]], and [[Geometry of Hyperbolic Space|hyperbolic]] space.
+__Proof__: This follows from the law of cosines in [[Geometry of Euclidean Space|euclidean]], [[Geometry of the n Sphere|spherical]], and [[Geometry of Hyperbolic Space|hyperbolic]] space.
 ```ad-Definition
 title:Definition: $\kappa$ Comparison Triangles
 Let $x,y,z\in M$ some metric space $(M,d)$ with $d(x,y) = a$, $d(z,y) = b$, and $d(z,x) = c$ such that $a+b+c\leq 2\diam(M_\kappa^2)$. Then, let $x',y',z'\in M_\kappa^2$ with $d(x',y') = a$, $d(z',y') = b$, and $d(z',x') = c$. Such a triangle $x'y'z'$ is called a  <u>$\kappa$ Comparison Triangle</u>. This triangle is unqiue up to [[Hyperplanes and Reflections#^d21a1e|isometry]].
