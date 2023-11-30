@@ -44,6 +44,14 @@ $$
 \end{align}
 $$
 The same holds in $\R^n$, $\sph^n$. $\square$
+```ad-Corollary
+Reflections send hyperplanes to hyperplanes. Moreover, they fix hyperplanes orthogonal to the hyperplane of reflection. Also, in the hyperbolic case, reflections fix the lightcone.
+```
+
+^5458a9
+
+
+
 ```ad-Proposition
 Let $x,y\in \HP^n$ ($\sph^n$, $\R^n$ resp.), then there exists a reflection which maps $x\mapsto y$
 ```

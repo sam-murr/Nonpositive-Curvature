@@ -211,6 +211,9 @@ This proves every point $x$ on $g$ is on the [[Geometry of Hyperbolic Space#^67d
 ```ad-Proposition
 Hyperbolic lines are exactly the (non-empty) intersections of $\HP^n$ with two dimensional subspaces $S\subseteq \R^{n+1}$.
 ```
+
+^bd160e
+
 __Proof__: Let $l$ be a hyperbolic line at $x$ in direction $u$. Then $l\subseteq S = \span(x,u)$ by definition. Moreover, if $y\in S\cap \HP^n$, then we have:
 $$
 \begin{align}
