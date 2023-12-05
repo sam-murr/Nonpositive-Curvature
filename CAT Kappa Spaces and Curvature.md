@@ -11,7 +11,5 @@ This is just saying that the geodesic triangle in $M$ is "thinner" than the comp
 
 If $M$ is a $\diam(M_\kappa^2)$ [[Geodesic|geodesic]] metric space such that every triangle $\Delta$ with perimeter $<2\diam(M_\kappa^2)$ the $\CAT(\kappa)$ inequality holds, then, then $M$ is a <u>$\CAT(\kappa)$ space</u>
 ```
-
-```ad-Definition
-title:Definition: Spaces with Curvature $\leq \kappa$
-Let $(M,d)$ be a metric space. If $(M,d)$ is locally a $\CAT(\kappa)$ (at every point there is a small enough open ball that is $\CAT(\kappa)$ with the induced metric), then it has curvature $\leq \kappa$.
+![[CAT(0) Space.png]]
+<center> Above: An example of the CAT(0) inequality holding</center>
