@@ -6,3 +6,6 @@ A subset $C$ of a geodesic metric space $(M,d)$ is convex if for every pair of p
 title:Definition: Convex Hull
 Given a subset $S\subseteq M$ of a geodesic metric space $(M,d)$, the <u>convex hull</u> of $S$ is the inclusion minimal convex set containing $S$.
 ```
+
+^a30edd
+

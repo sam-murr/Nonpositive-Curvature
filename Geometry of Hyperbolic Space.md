@@ -47,6 +47,9 @@ A hyperbolic segment of length $a$ starting at $x$ in direction $u$ is the curve
 
 The hyperbolic segment between points $x,y\in\HP^n$, $x\neq y$, is the hyperbolic segment of length $d(x,y)$ starting at $x$ in direction $u_{xy} = \frac{y+(x,y)x}{\sqrt{(y+(x,y)x,y+(x,y)x)}}$
 ```
+
+^34b463
+
 ```ad-Proposition
 Hyperbolic segments lie in $\HP^n$ and are geodesics.
 ```

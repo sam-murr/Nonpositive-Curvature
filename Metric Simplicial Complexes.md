@@ -1,4 +1,5 @@
 
+![[Convex Subspace]]
 ```ad-Definition
 title:Definition: $M^n_\kappa$ Simplex
 A set of points $v_0,\dots, v_n$ in $M_\kappa^n$ is in <u>General Position</u> if they are not contained in a subspace isometric to $M^{n-1}_\kappa$ (in particular, a hyperplane)
@@ -15,7 +16,7 @@ A $\kappa$ simplicial complex is a quotient of the disjoint union over $\lambda 
 - Each $S_\lambda$ embeds into $X$ via $p_\lambda$
 - If $p_\lambda(S_\lambda)\cap p_\gamma(S_\gamma)\neq \emptyset$, then both $T_\lambda = p^{-1}_\lambda(p_\gamma(S_\gamma))$, $T_\gamma = p^{-1}_\gamma(p_\lambda(S_\lambda))$ are faces of their respective simplices and there exists an isometry $h_{\lambda\gamma}: T_\lambda \to T_\gamma$ such that $p_\gamma\rest T_\gamma = p_\lambda\rest T_\gamma\circ h_{\lambda\gamma}$.
 
-The set of isometry classes of simplices in $X$ is called $\Shapes(X)$.
+The set of isometry classes of simplices and their faces in $X$ is called $\Shapes(X)$.
 
 If $X$ is a $0$ simplicial complex (resp 1,-1), it is called piecewise euclidean(resp spherical, hyperbolic).
 ```
@@ -51,6 +52,24 @@ __Proof__: Let $\Sigma = x_0\dots x_m$ be a string from $x$ to $y$ with $\len(\S
 If for all $x\in X$, $\eps(x) > 0$, then it is a metric space with the induced pseudometric. 
 ```
 
-```ad-Proposition
-If $\Shapes(X)$ has finitley many isometry classes, then $X$ is complete.
+```ad-Theorem
+title: Bridson Theorem
+If $\Shapes(X)$ has finitley many isometry classes, then $X$ is a complete geodesic space.
 ```
+__Proof__: Note that $\eps(x) > 0$ for all $x$, since taking $T$ to be the simplex/face containing $x$ on its interior
+
+
+(Proof of completeness) Let $x_n$ be Cauchy. Let $S_n$ be a simplex containing $x_n$ and by finiteness assume all the $S_n$ are isometric to some simplex $S$ via $f_n:S_n\to S$. Then, $f_n(x_n)$ has a convergent subsequence, since $S$ is compact, so say it converges to $y$. Let $T$ be the face of $S$ containing $y$ in the interior.
+
+Let $\eps_0 <\eps(y)$ and  $\eps_0 < d(y,j(y))$ where $j$ is any isometry of $T$ which preserves vertices and does not fix $y$ (Note there are only finitely many such $j$ since the position of each point is determined by its distance to the vertices). Let $y_n = f^{-1}_n(y)$
+
+Then, let $N$ big enough so that $d(x_n,x_N)<\frac{\eps_0}{3}$, $d(f_n(x_n),y)<\frac{\eps_0}{3}$ for all $n\geq N$. This means:
+$$
+d(y_N,y_n)\leq d(x_n,y_n)+d(x_n,x_N)+d(x_N,y_N) <\eps_0
+$$
+This means that if $d(y_N,y_n)<\eps_0$, so $d(y,f_N\circ f_n(y))<\eps_0$, since $f_N\circ f_n$ is an isometry of $S$, $y = f_N\circ f_n(y)$, so $y_N = y_n$, so $x_n\to y_N$. $\square$
+
+```ad-missing
+Somewhere we should use the fact that $d(y_N,y_n)<\eps(y)$ to show $y_N$ and $y_n$ are in the same simplex $S_n$, not sure how.
+```
+

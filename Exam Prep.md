@@ -46,3 +46,40 @@ The definition of a hyperplane and a reflection in $\sph^n$ and $\HP^n$ . The pr
 ![[Alexandrov Angle]]
 ## Alexandrov Lemma:
 ![[Alexandrov Lemma]]
+
+# Section Four:
+
+## Riemannian Metrics:
+![[Riemannian Geometry]]
+
+# Section Five:
+## The $\kappa$ Cone
+![[Kappa Cone]]
+## Metric Simplicial Complexes,
+![[Metric Simplicial Complexes]]
+
+# Section Six:
+## Cartan Hadamard Theorem
+![[Cartan Hadamard Theorem]]
+
+# Section Seven:
+## Center of a Bounded Set
+![[Center of a Bounded Set]]
+## Actions on $\CAT 0$ space
+![[Actions on CAT 0 Spaces]]
+
+# Section Eight:
+## Projection to a Convex Set
+![[Projection to a Convex Set]]
+## Axis Theorem and Flat Torus Theorem
+![[Axis Theorem and Flat Torus Theorem]]
+
+# Section Nine
+## Coxeter Groups 
+![[Coxeter Groups]]
+# Section Ten
+## Developability
+![[Developability]]
+# Section Eleven
+![[Buildings and Apartments]]
+
