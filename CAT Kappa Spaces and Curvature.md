@@ -22,4 +22,14 @@ Suppose $xyz$ geodesic triangle in $X$. The following are equivalent:
 - The alexandrov angles are no greater than the angles of the $\kappa$ comparison triangles $x'y'z'$.
 - Let $p,q$ on $xy$ and $xz$ respectively, then the angles in the $\kappa$ comparison triangles $\bar{\Delta}(xpq)$ are no larger than the angles in $\bar{\Delta}(xyz)$.
 ```
-__Proof__: 1
+__Proof__:
+
+
+```ad-Proposition
+Suppose $xyz$ geodesic triangle in $X$. The following are equivalent:
+- $xyz$ satisfies the $\CAT(\kappa)$ inquality.
+- For all $r\in [x,y]$, the distance between $r$ and $z$ is less than the distance between $z'$ and $r'$ in the $\kappa$ comparison triangle $x'y'z'$.
+- The alexandrov angles are no greater than the angles of the $\kappa$ comparison triangles $x'y'z'$.
+- Let $p,q$ on $xy$ and $xz$ respectively, then the angles in the $\kappa$ comparison triangles $\bar{\Delta}(xpq)$ are no larger than the angles in $\bar{\Delta}(xyz)$.
+```
+__Proof__:

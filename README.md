@@ -1,1 +1,2 @@
 # Nonpositive-Curvature
+Notes from Piotr Przytycki's class on metric spaces with non-positive curvature. The course is based on the book <i>Metric Spaces of Non-Positive Curvature</i> by Martin R. Bridson and André Haefliger. These notes are largely copied from written notes by Chris Karpinski. Any errors mathematical or otherwise are due to Sam Murray.

@@ -6,12 +6,15 @@ Let $g$ be an isometry of metric space $X$. The <u>displacement function</u> of 
 - If $|g| > 0$ and $\Min(g)\neq\emptyset$, then $g$ is called <u>hyperbolic</u>.
 - If  $\Min(g)=\emptyset$, then $g$ is called <u>parabolic</u>.
 
-Hyperbolic and elliptic isometries are called <u>semi simple</u>
+Hyperbolic and elliptic isometries are called <u>semi-simple</u>
 ```
+
+^hypisom
+
 ```ad-Example
 In $\HP^2$, rotations are elliptic, compositions of two inversions which are perpendicular to the same line is hyperbolic, and the composition of two inversions.
-
 ```
+
 ```ad-Lemma
 If $X$ is convex, then $\Min(g)$ is convex.
 ```
@@ -30,7 +33,7 @@ __Proof__: ($\Rightarrow$) Let $x\in\Min(g)$, then take geodesic $c_1$ from $x$ 
 
 ```ad-Theorem
 title:Theorem: Decomposition Theorem
-Let $g$ be a complete isometry on a $\CAT(0)$ metric space $X$, then $\Min(g)$ is of the form $\R\times Y$ where $g$ acts on $\Min(g)$ via $(t,x)\mapsto (t+a,r)$.
+Let $g$ be a complete isometry on a $\CAT(0)$ metric space $X$, then $\Min(g)$ is of the form $\R\times Y$ where $Y$ is a $\CAT(0)$ metric space $g$ acts on $\Min(g)$ via $(t,x)\mapsto (t+a,r)$.
 ```
 
 ^decompositionthm
@@ -40,6 +43,8 @@ __Proof__:
 title:Lemma: Flat Triangle Lemma
 Let $pqq'$ be a geodesic triangle in $\CAT(0)$ space. If the alexandrov angle at $p$ equals the angle at $\bar{p}$ in the $0$ comparison triangle $\bar{p}\bar{q}\bar{q}'$ then there is an isometry from the convex hull of $pqq'$ to the convex hull of $\bar{p}\bar{q}\bar{q}'$.
 ```
+^flattri
+
 __Proof__: We will first show that for all $r$ in geodesic $qq'$, $d(p,r) = d(\bar{p},\bar{r})$. Let $\alpha = \angle_p qq'$ be the alexandrov angle at $p$.
 ![[Axis 1.png]]
 We see that the sum of the alexandrov angles $\angle_pqr$ and $\angle_pqr$ is at least $\angle_p qq'$, so using the [[Alexandrov Lemma|alexandrov lemma]] on geodesic triangles $pqr$ and $prq'$ we have that:
@@ -98,3 +103,6 @@ As  $s\to \infty$, $\sqrt{s^2+1}-s\to 0$, so $\eps = 0$. $\square$.
 title:Theorem: Flat Torus Theorem
 If $G$ is a torsion free abeleian group of rank $n$ acting properly by semisimple isometries on complete $\CAT(0)$ space $X$, then $\Min(G) = \cap_{g\in G} \Min(g)$ is nonempty and splits as $Y\times \R^n$ where $G$ acts trivially on $Y$ and by translations on $\R^n$. Moreover, $\R^n/G$ is an $n$ torus.
 ```
+__Proof__:  We will induct on the rank of $G$. Since the $G$ acts by [[Axis Theorem and Flat Torus Theorem#^hypisom|semi-simple]] isometries is [[Actions on CAT 0 Spaces|proper]], it is [[Axis Theorem and Flat Torus Theorem#^hypisom|hyperbolic]]. So if $n = 1$, this is just the [[Axis Theorem and Flat Torus Theorem#^decompositionthm| decomposition theorem]]. 
+
+Now suppose $n>1$, $G = \langle g_1,\dots,g_n\rangle$. By the decomposition theorem, $\Min(g_1) = Y_1\times \R$. We claim that the subgroup of  $N\leq G$ which fixes $Y_1$ is $\langle g_1 \rangle$
