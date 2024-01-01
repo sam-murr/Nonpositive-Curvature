@@ -33,7 +33,7 @@ __Proof__: ($\Rightarrow$) Let $x\in\Min(g)$, then take geodesic $c_1$ from $x$ 
 
 ```ad-Theorem
 title:Theorem: Decomposition Theorem
-Let $g$ be a complete isometry on a $\CAT(0)$ metric space $X$, then $\Min(g)$ is of the form $\R\times Y$ where $Y$ is a $\CAT(0)$ metric space $g$ acts on $\Min(g)$ via $(t,x)\mapsto (t+a,r)$.
+Let $g$ be a hyperbolic isometry on a $\CAT(0)$ metric space $X$, then $\Min(g)$ is of the form $Y\times \R$ where $Y$ is a $\CAT(0)$ metric space $g$ acts on $\Min(g)$ via $(t,x)\mapsto (t+a,r)$.
 ```
 
 ^decompositionthm
@@ -97,12 +97,41 @@ As+\eps&\leq A\sqrt{s^2+1}\\
 \eps&\leq A(\sqrt{s^2+1}-s)\\
 \end{align}
 $$
-As  $s\to \infty$, $\sqrt{s^2+1}-s\to 0$, so $\eps = 0$. $\square$.
+As  $s\to \infty$, $\sqrt{s^2+1}-s\to 0$, so $\eps = 0$. For any $x,z\in Y$, we can take $y'$ to be a point on the geodesic $x$, $z$ and let $y = \pi_{y'}(x)$. The above analysis then shows that $d(y,z)\leq d(y',z)$ and $d(y,x)\leq d(y',x)$, so the the path $[xy][yz]$ is a geodesic, so $y=y'$. This shows that $Y$ is convex, so it is $\CAT(0)$. $\square$
+
+
 
 ```ad-Theorem
 title:Theorem: Flat Torus Theorem
-If $G$ is a torsion free abeleian group of rank $n$ acting properly by semisimple isometries on complete $\CAT(0)$ space $X$, then $\Min(G) = \cap_{g\in G} \Min(g)$ is nonempty and splits as $Y\times \R^n$ where $G$ acts trivially on $Y$ and by translations on $\R^n$. Moreover, $\R^n/G$ is an $n$ torus.
+If $G$ is a torsion free abeleian group of rank $n$ acting properly by semisimple isometries on complete $\CAT(0)$ space $X$, then $\Min(G) = \cap_{g\in G} \Min(g)$ is nonempty and splits as $Y\times \R^n$ where $G$ acts trivially on $\CAT(0)$ space $Y$ and by translations on $\R^n$. Moreover, $\R^n/G$ is an $n$ torus.
 ```
-__Proof__:  We will induct on the rank of $G$. Since the $G$ acts by [[Axis Theorem and Flat Torus Theorem#^hypisom|semi-simple]] isometries is [[Actions on CAT 0 Spaces|proper]], it is [[Axis Theorem and Flat Torus Theorem#^hypisom|hyperbolic]]. So if $n = 1$, this is just the [[Axis Theorem and Flat Torus Theorem#^decompositionthm| decomposition theorem]]. 
+__Proof__: We will induct on the rank of $G$. Since the $G$ acts by [[Axis Theorem and Flat Torus Theorem#^hypisom|semi-simple]] isometries is [[Actions on CAT 0 Spaces|proper]], it is [[Axis Theorem and Flat Torus Theorem#^hypisom|hyperbolic]]. So if $n = 1$, this is just the [[Axis Theorem and Flat Torus Theorem#^decompositionthm| decomposition theorem]]. 
 
-Now suppose $n>1$, $G = \langle g_1,\dots,g_n\rangle$. By the decomposition theorem, $\Min(g_1) = Y_1\times \R$. We claim that the subgroup of  $N\leq G$ which fixes $Y_1$ is $\langle g_1 \rangle$
+```ad-Lemma
+title:Lemma: Splitting Lemma
+Let $g$ be a hyperbolic isometry on $\CAT(0)$ space and let $f$ be isometery which commutes with $g$, then $\Min(g)=Y\times \R$ is invariant under $f$, and $f$ splits into $(f',f'')$, where $f'$ is an isometry of $Y$ and $f''$ is a translation of $\R$.
+```
+__Proof__:(lemma)  Firstly, note that $d_g(x) = d(x,g\cdot x) = d(f\cdot x,fg\cdot x)=d((f\cdot x),fgf^{-1}\cdot (f\cdot x)) = d_{fgf^{-1}}(f(x))$, so $|g|=|fgf^{-1}|$ and $f\cdot\Min(g) = \Min(fgf^{-1})$. Since $f$ and $g$ commute, $f\cdot\Min(g) = \Min(g)$. Moreover, $g$ axes are sent to $g$ axes by $f$ (since the axis from $x$ to $g(x)$ is sent to the axis from $f(x)$ to $g(f(x))$).
+
+Fix some $x\in Y$, associate $Y$ and $\R$ with subsets $Y\times\{0\}$ and $\{x\}\times\R$. Below we will write $(y,t)$ as $y+t$ for $y\in Y$ and $t\in\R$.
+
+We will show that $f' = \pi_{Y}\circ f$ and  $f'' = \pi_{\R}\circ f$. We have $f = (f',f'')$, so it just suffices to show they are isometries. Let $x,y\in Y$, then $d(x,y) = d(f(x),f(y)) = d(x'+t'+y'+r')\geq d(x',y') = d(f'(x),f'(y))$. Since $f$ sends axes to axes, $f^{-1}(x') = x+t''$ and $f^{-1}(y') = y+r''$, so $d(x',y') = d(f^{-1}(x'),f^{-1}(y'))=d(x+t'',y+r'')\geq d(x,y)$, so $d(x,y) = d(x',y')$. $f''$ will also be an isometry, since $|t-r|=d(x+t,x+r) = d(f(x+t),f(x+r)) = d(x'+t',x'+r') = |t'-r'|$.  Since $f$ commutes with $g$, we know that $f'$ cannot be a reflection, so it must be a translation of $\R$. 
+$\square$ (lemma)
+
+Now suppose $n>1$, $G = \langle g_1,\dots,g_n\rangle\cong\Z^n$ where the $g_i$ are the usual generators. By the decomposition theorem, $\Min(g_1) = Y_1\times \R$. Let $N$ be subgroup of $G$ fixing $Y_1$.
+
+```ad-Claim
+$N = \langle g_1 \rangle$
+
+```
+__Proof__:(claim) Since $N$ fixes  $Y_1$,  $N$ then acts properly on $\{y\}\times \R$ for any $y\in Y_1$. Fix a $y$, then  $N$  acts properly on $\R$ by semi-simple (thus hyperbolic) isometries, ie by translations. For any $f\in N$, let $t_f$ be such that $f\cdot r = r+t_f$ for all $r\in\R$. WLOG take $|g_1| = t_{g_1}$. Note that if $f,h\in N$ then $t_{fh} = t_{f}+t_{h}$, and moreover by properness and the fact $N$ is torsion free if $t_{fh} = 0$ then $f = h$ (otherwise, $\{(fh)^n\}$ would be an infinite set fixing $0$)
+
+Let $f\in N$, take $S=\{n|g_1| + mt: n,m\in \N, n|g_1| + mt>0\}$ and $l = \inf S$. $l > 0$ by properness. Also if $S$ is closed under taking differences, so $l$ is witnessed by some element $c = n_0|g_1|+m_0t$ and we have that $kc=|g_1|$ and $jc=t$ for integer $k,j$. Let $h = n_0g_1+m_0f$, then $kh = g_1$ and $jh = f$. Since $g_1$ is not a proper power of another element, $h = g_1$, so $f = jg_1$.
+$\square$ (claim) 
+
+$H = \gen{g_2,\dots,g_{n}}\cong G/N$ acts on $Y_1$: let $f\in G$, $f=(f',f'')$ as in the splitting lemma, then $(f+N)\cdot y = f'(y)$. Let $r\in\R$ such that $f''$ is translation by $r$, then: $$d_f((y,t)) = \sqrt{d(y,f'(y))^2+d(t,f''(t))^2}=\sqrt{d_{f+N}(y)^2+r^2}$$
+So $|f|=|f+N|$ and $\Min(f) = \Min(f+N)\times \R$ (so $\Min(H)\times\R=\Min(G)$). In particular, $G/N$ acts by semi-simple isometries. In order to apply the induction hypothesis, we just need to show the action is proper.
+
+Let $B = B_\eps(y)\subseteq Y$ be a ball, then by properness $S = \{g\in G: g\cdot B\times[0,|g_1|]\cap B\times[0,|g_1|]\neq \emptyset\}$ is finite. If $\bar{f}=f+N \in H$ with $\bar{f}\cdot B\cap B$, then there is $y$, $y'\in B$ with $y' = f'(y)$. Then, there is some multiple of $g_1$ such that $f''(y)+n|g_1|\in[0,|g_1|]$, so $f+ng_1\in S$. Therefore there must be finitely many such $\bar{f}$. 
+
+By induction, $\Min(H) = Y\times \R^{n-1}$ where $Y$ is fixed by $H$ and  $H$ acts by translations on $\R^{n+1}$. Then, $\Min(G) = Y\times \R^{n}$, where $Y$ is 
